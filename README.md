@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# 2021년, 변규홍은 어떻게 살아가고 있나요?
 
-You can use the [editor on GitHub](https://github.com/iamcombacsa/iamcombacsa.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+2021년부터, 전반적인 개발 환경과 관련된 분야에서 행했던 삽질 중 의미있는 것을 메모해 둡니다.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 2021년 1월 1일 (금요일)
 
-### Markdown
+### 구형 (2009) 컴퓨터를 포맷할 때 주의할 점들.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* USB Flash Memory 기반의 부팅을 지원하지 않는 경우가 많다.
+* [iODD](iODD.md) 를 사용하더라도 경우에 따라 USB 전원 포트 출력이 부족할 수 있다.
+  * Y 자향 USB 전원 보조 케이블 등을 사용하여도 사정이 그리 나아지지 않기도 한다.
+* iODD 에 Windows 10 ISO 파일을 잘 심어도, 다른 파티션이 있어서 문제가 될 수 있다.
+* `_ISO` 폴더에 저장된 파일이 단편화가 일어나 있을 경우 `defrag` 에러만 뜬다. 조각모음 필수.
+* `C:\GPKI` 를 깔끔하게 백업한다.
+* Windows 에는 즐겨찾기 백업하는 것도 잊지 않는다.
+* 같은 iODD 라고 해도 안에 들어있는 SSD 유형에 따라 전력 소모량이 적은 것을 찾을 수 있다.
+* Windows 10 미디어 다운로드 도구로 USB 자체를 바꾸거나, ISO 파일만 따로 받을 수도 있다.
+* `말랑말랑 플랫폼` 기반으로 설치한 `한글 2020`은 `K-에듀파인`의 `ODT 패치`와 호환되지 않는다.
+  * 정확히는 `ODT 패치`가 `한글 2020`을 설치되어 있는 버전으로 인정하지 않는다.
+  * 이 경우엔 해당 시도교육청을 통해 내려온 `한글 2018`을 설치할 수밖에 없다.
+  
+ 
+# 변규홍은 누구?
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iamcombacsa/iamcombacsa.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[combacsa](https://github.com/combacsa) 을 
+참조해 주세요.
