@@ -2,6 +2,14 @@
 
 2021년부터, 전반적인 개발 환경과 관련된 분야에서 행했던 삽질 중 의미있는 것을 메모해 둡니다.
 
+## 2021년 1월 4일 (월요일)
+
+### Slack 장애 Report
+
+* Slack 에도 장애 리포트 사이트 [https://status.slack.com/](https://status.slack.com/)가 있다.
+* Slack 이중화는 어떤 식으로 할 수 있을지.
+
+
 ## 2021년 1월 3일 (일요일)
 
 ### `github.com/[ID]/[ID]` Repository 
