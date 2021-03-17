@@ -2,6 +2,21 @@
 
 2021년부터, 전반적인 개발 환경과 관련된 분야에서 행했던 삽질 중 의미있는 것을 메모해 둡니다.
 
+## 2021년 3월 17일 (수요일)
+
+### LATIN CAPITAL LETTER I WITH DOT ABOVE 에서 시작된 관찰
+
+* [UnicodeData.txt](https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt)에 따르면, `U+0130`(`&#0307`), `'İ'` 즉 *Latin Capital Letter I with Dot Above*을 소문자로 표현하면 평범한 i가 된다.
+* 하지만 Python 3.3 및 그 이상의 버전에서는 str.lower() 를 할 때 `'i\u0307'`이 된다. (1글자 -> 2글자)
+* [Python Bug Tracker - Issue 17252](https://bugs.python.org/issue17252)에서 이에 대한 흥미로운 토론을 읽을 수 있다. 
+* 좀더 많은 이야기는 [Dotted and dotless I](https://en.wikipedia.org/wiki/Dotted_and_dotless_I) 혹은 [İ와_ı](https://ko.wikipedia.org/wiki/%C4%B0%EC%99%80_%C4%B1)에도 올라와 있다.
+* Python 3.6.10 기준으로는 이 문자를 제외하고는 str.lower() 를 하는 것만으로 문자열의 길이가 달라지는 경우는 없다.
+* 흥미롭게도 str.upper() 를 하는 것만으로 문자열의 길이가 달라지는 경우는 102 건이나 된다.
+
+```
+print([chr(y) for y in range(0x110000) if len(chr(y).upper()) != len(chr(y))])
+```
+
 ## 2021년 1월 13일 (수요일)
 
 ### 현재 다니고 있는 회사의 이름 (...)
