@@ -2,6 +2,13 @@
 
 2021년부터, 전반적인 개발 환경과 관련된 분야에서 행했던 삽질 중 의미있는 것을 메모해 둡니다.
 
+## 2021년 3월 27일 (토요일)
+
+### 첫 Translation pull request
+
+* [어떤 공개 서한을 다국어로 번역하자는 제안](https://github.com/rms-open-letter/rms-open-letter.github.io/issues/1186)하고 이틀 뒤에 올린 [Pull Request](https://github.com/rms-open-letter/rms-open-letter.github.io/pull/2443)가 merge되었다.
+* [해당 공개 서한과 정반대의 입장을 취하는 공개 서한](https://github.com/rms-support-letter/rms-support-letter.github.io)의 [한국어 번역](https://rms-support-letter.github.io/index-ko.html)을 보면서 여러 가지 고민이 든다. 단순히 내용을 어떻게 옮길 것인지뿐만 아니라 이 내용을 비판적으로 수용하기 위한 - 우리말로 된 사전 지식을 어떻게 제공해야 좋을까?
+
 ## 2021년 3월 17일 (수요일)
 
 ### LATIN CAPITAL LETTER I WITH DOT ABOVE 에서 시작된 관찰
