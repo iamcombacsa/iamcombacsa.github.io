@@ -2,6 +2,12 @@
 
 2021년부터, 전반적인 개발 환경과 관련된 분야에서 행했던 삽질 중 의미있는 것을 메모해 둡니다.
 
+## 2021년 11월 6일 (토요일)
+
+### Microsoft office Click-to-run CPU 점유율
+
+* [Link](https://answers.microsoft.com/en-us/msoffice/forum/all/microsoft-office-click-to-run-process-running-with/c88b90d6-0805-408d-a7bd-47ef8cf31f24)
+
 ## 2021년 3월 27일 (토요일)
 
 ### 첫 Translation pull request
@@ -39,7 +45,6 @@ print([chr(y) for y in range(0x110000) if len(chr(y).upper()) != len(chr(y))])
 * Slack 에도 장애 리포트 사이트 [https://status.slack.com/](https://status.slack.com/)가 있다.
 * Slack 이중화는 어떤 식으로 할 수 있을지.
 
-
 ## 2021년 1월 3일 (일요일)
 
 ### `github.com/[ID]/[ID]` Repository 
@@ -62,9 +67,8 @@ print([chr(y) for y in range(0x110000) if len(chr(y).upper()) != len(chr(y))])
 * `말랑말랑 플랫폼` 기반으로 설치한 `한글 2020`은 `K-에듀파인`의 `ODT 패치`와 호환되지 않는다.
   * 정확히는 `ODT 패치`가 `한글 2020`을 설치되어 있는 버전으로 인정하지 않는다.
   * 이 경우엔 해당 시도교육청을 통해 내려온 `한글 2018`을 설치할 수밖에 없다.
-* 동일 메인보드에 '디지털 라이선스'가 걸려 있다면 Microsoft 계정에 연동시켜 라이선스를 이전시킬 수 있다.  
+* 동일 메인보드에 '디지털 라이선스'가 걸려 있다면 이 라이선스를 Microsoft 계정에 연동시켜 라이선스를 이전시킬 수 있다.
  
 # 변규홍은 누구?
 
-[combacsa](https://github.com/combacsa) 을 
-참조해 주세요.
+[combacsa](https://github.com/combacsa)을 참조해 주세요.
