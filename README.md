@@ -2,6 +2,12 @@
 
 2021년부터, 전반적인 개발 환경과 관련된 분야에서 행했던 삽질 중 의미있는 것을 메모해 둡니다.
 
+## 2022년 1월 2일 (일요일)
+
+### [KoNLPy](https://github.com/konlpy/konlpy) 매인테이너
+
+* [KoNLPy](https://github.com/konlpy/konlpy)의 0.6.0 버전 릴리즈를 요청하였고, 어느 순간 매인테이너가 되었다. Windows, Linux, Mac OS X, Arm (Non-Intel) 등 다양한 환경과 Python 2.7, Python 3.6 등 다양한 버전, 그리고 CoLab 등의 환경 모두에서 테스트를 해 보고 있다. 
+
 ## 2021년 11월 16일 (화요일)
 
 ### Inference on CPU for GPT-J
