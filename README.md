@@ -4,6 +4,11 @@
 
 ## 2022년 6월 17일 (금요일)
 
+### Ubuntu 18.04 -> 20.04 dist-upgrade 후 uim-byeoru 재설치
+
+* Slack 에서 한글 입력이 잘 되는 조합을 아직 uim + byeoru 조합 이외에는 찾지 못했다.
+* Ubuntu 20.04 로의 업그레이드 후, uim-byeoru 의 설치 및 설정이 필요하다. (18.04 와 달리 패키지가 분리되어 있다.)
+
 ### Ubuntu 18.04 -> 20.04 dist-upgrade 시 cuda-drivers 가 방해를 할 때
 
 * 처음에는 `sudo do-release-upgrade` 를 할 생각이었다.
