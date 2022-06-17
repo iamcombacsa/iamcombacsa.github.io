@@ -2,6 +2,15 @@
 
 2021년부터, 전반적인 개발 환경과 관련된 분야에서 행했던 삽질 중 의미있는 것을 메모해 둡니다.
 
+## 2022년 6월 17일 (금요일)
+
+### Ubuntu 18.04 -> 20.04 dist-upgrade 시 cuda-drivers 가 방해를 할 때
+
+* 처음에는 `sudo do-release-upgrade` 를 할 생각이었다.
+* 하지만 `sudo apt-get upgrade` 에서 뭔가 `The following packages have been kept back:` 로 남아 있어서인지 `do-release-upgrade` 는 실패했다.
+* [이 링크](https://stackoverflow.com/questions/66380789/nvidia-driver-installation-unmet-dependencies)의 스크린샷을 보고, 혹시나 싶어 `http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/` 을 `apt`의 `sources` 에서 제거하여 보았다. 정확한 이유는 모르겠지만, 이후 몇몇 driver upgrade 가 진행될 수 있었다. `Do-release-upgrade` GUI 도 실행 가능하게 되었다.
+* [CUDA Linux Repository key rotation](https://forums.developer.nvidia.com/t/notice-cuda-linux-repository-key-rotation/212772)가 2022년 4월 27일에 일어나, 이 부분도 반영되어야 한다.
+
 ## 2022년 1월 2일 (일요일)
 
 ### [KoNLPy](https://github.com/konlpy/konlpy) 매인테이너
