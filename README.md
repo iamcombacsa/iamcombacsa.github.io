@@ -1,6 +1,11 @@
-# 2021년, 변규홍은 어떻게 살아가고 있나요?
+# 변규홍, 그 사람은 어떻게 살아가고 있나요?
 
 2021년부터, 전반적인 개발 환경과 관련된 분야에서 행했던 삽질 중 의미있는 것을 메모해 둡니다.
+
+## 2025년 06월 15일 (일요일)
+
+* Hacker's Pub 게시물을 Github pages 에 링크하면 크롤링이 될 것인지? 
+  * [스마트폰 카메라 촬영 없이 TOTP QR Code 인증하기](https://hackers.pub/@combacsa/2025/%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0-%EC%B9%B4%EB%A9%94%EB%9D%BC-%EC%82%AC%EC%9A%A9%EC%9D%B4-%EB%B6%88%EA%B0%80%EB%8A%A5%ED%95%9C-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-totp-qr%EC%BD%94%EB%93%9C-%EC%98%AE%EA%B8%B0%EA%B8%B0)
 
 ## 2024년 12월 12일 (목요일)
 
